@@ -1,5 +1,5 @@
-﻿#include "AngleNet.h"
-#include "OcrUtils.h"
+﻿#include "../include/AngleNet.h"
+#include "../include/OcrUtils.h"
 #include <numeric>
 
 void AngleNet::setGpuIndex(int gpuIndex) {

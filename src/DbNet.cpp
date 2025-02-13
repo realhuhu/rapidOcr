@@ -1,5 +1,5 @@
-﻿#include "DbNet.h"
-#include "OcrUtils.h"
+﻿#include "../include/DbNet.h"
+#include "../include/OcrUtils.h"
 
 void DbNet::setGpuIndex(int gpuIndex) {
 #ifdef __CUDA__

@@ -8,7 +8,13 @@
 #include "AngleNet.h"
 #include "CrnnNet.h"
 
-class OcrLite {
+#ifdef OCR_EXPORTS
+#define OCR_API __declspec(dllexport)
+#else
+#define OCR_API __declspec(dllimport)
+#endif
+
+class OCR_API OcrLite {
 public:
     OcrLite();
 

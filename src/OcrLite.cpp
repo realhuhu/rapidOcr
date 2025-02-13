@@ -1,5 +1,5 @@
-﻿#include "OcrLite.h"
-#include "OcrUtils.h"
+﻿#include "../include/OcrLite.h"
+#include "../include/OcrUtils.h"
 #include <stdarg.h> //windows&linux
 
 OcrLite::OcrLite() {}
