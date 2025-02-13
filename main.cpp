@@ -1,4 +1,4 @@
-﻿#include "src/OcrLite.h"
+﻿#include "include/OcrLite.h"
 #include <iostream>
 #include <chrono>
 #include "windows.h"
